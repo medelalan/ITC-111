@@ -12,12 +12,24 @@
     color: #1d1c1c;
     padding: 10px;
 }
-#form {
+#formData {
     margin: 0 auto;
     text-align: center;
-    color: white;
+    color: black;
+    padding: 10px;
+}
+#formData2 {
+    text-align: center;
+    color: black;
     padding: 10px;
 }
 #label {
     text-align: center;
+}
+.label {
+    text-align: center;
+}
+#age {
+    text-align: center;
+    width: 35px;
 }
