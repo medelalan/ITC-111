@@ -16,7 +16,7 @@
                 <form onsubmit="alert('Submit!');return false">
                     <div id="formData">
                         <!-- Name section -->
-                        <div class="label">
+                        <div class="registrationLabel">
                             <label>Name</label><br>
                             <input type="text" name="firstName" placeholder="Enter First Name">
                             <input type="text" name="lastName" placeholder="Enter Last Name">
@@ -24,25 +24,33 @@
                         <!-- Name section end -->
 
                         <!-- Age section -->
-                        <div class="label">
+                        <div class="registrationLabel">
                             <label>Age</label><br>
                             <input type="number" name="age" id="age">
                         </div>
                         <!-- Age section end -->
 
                         <!-- Email section -->
-                        <div id="label">
-
+                        <div class="registrationLabel">
+                            <label>Email</label><br>
+                            <input type="email" name="eMail" placeholder="Enter Email address">&nbsp;
+                            <input type="email" name="eMail" placeholder="Confirm Email adress">
                         </div>
                         <!-- Email section end -->
-                        <div id="label">
-                            
-                        </div>
+
                         <!-- Username section-->
-                        <div id="label">
-                            
+                        <div class="registrationLabel">
+                            <label>Username</label><br>
+                            <input type="text" name="userName" placeholder="Enter A username">
                         </div>
                         <!-- Username section end -->
+
+                        <!-- Password section -->
+                        <div class="registrationLabel">
+                            <label>Password</label>
+                            <input type="text" name="password" placeholder="Enter Your Password">&nbsp;
+                        </div>
+                        <!-- Password section end -->
                         <br>
                         <input type="submit" name="submit">
                     </div>
