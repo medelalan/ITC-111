@@ -24,6 +24,7 @@
 }
 .signInLabel {
     text-align: center;
+    margin-left: 21px;
 }
 #age {
     width: 35px;
