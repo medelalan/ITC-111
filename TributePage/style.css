@@ -1,13 +1,14 @@
 body {
     background-color: black;
     text-align: center;
-    color: white;
-    padding: 80px;
+    color: tan;
+    background-image: url(960x0.jpg);
+    background-size: 50%;
+
 }
 img {
-    width: 500px;
-    height: 550px;
+    margin-top: 50px;
 }
-p {
+.content {
     font-family: 'Courier New', Courier, monospace;
 }
