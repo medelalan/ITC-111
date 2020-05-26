@@ -6,14 +6,24 @@
 function changeLinkText(lnk) {
 // Condition checks which link was click by passing value to the 'lnk' variable
 // the visibility of the corresponding div is updated accordingly. 
-if(lnk == "ce") {
-    document.getElementById('divLeftDefault').style.display = "none";
-    document.getElementById('divLeft_CELinks').style.display = "block";
+if(lnk == "home") {
+    document.getElementById('divLeft_Default').style.display = "block";
+    document.getElementById('divLeft_CELinks').style.display = "none";
     document.getElementById('divLeft_ALinks').style.display = "none";
     document.getElementById('divRight').style.display = "none";
     document.getElementById('ls_Heading').innerHTML = "Class Exercises";
     document.getElementById('rs_Heading').innerHTML = "Exercise Description";
-}else if (lnk == 'a'){
+}
+else if (lnk == 'classEx'){
+    document.getElementById('divLeftDefault').style.display = "none";
+    document.getElementById('divLeft_CELinks').style.display = "block";
+    document.getElementById('divLeft_ALinks').style.display = "block";
+    document.getElementById('divRight').style.display = "none";
+    document.getElementById('ls_Heading').innerHTML = "Assignments";
+    document.getElementById('rs_Heading').innerHTML = "Assignment Brief";
+
+}
+else if (lnk == 'assign'){
     document.getElementById('divLeftDefault').style.display = "none";
     document.getElementById('divLeft_CELinks').style.display = "none";
     document.getElementById('divLeft_ALinks').style.display = "block";
@@ -21,7 +31,8 @@ if(lnk == "ce") {
     document.getElementById('ls_Heading').innerHTML = "Assignments";
     document.getElementById('rs_Heading').innerHTML = "Assignment Brief";
 
-}else{
+}
+else{
     document.getElementById('divLeftDefault').style.display = "block";
     document.getElementById('divLeft_CELinks').style.display = "none";
     document.getElementById('divLeft_ALinks').style.display = "none";
