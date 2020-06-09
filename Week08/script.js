@@ -30,9 +30,11 @@ function doMath() {
         case '/':
             result = parseInt(val1) / parseInt(val2);
             break;
-        case 'sqrt':
+        case 's':
+            result = Math.sqrt(parseInt(val1));
             break;
-        case 'pow':
+        case 'p':
+            result = Math.pow(parseInt(val1)), parseInt(val2);
             break;
     }
     document.getElementById('display1').innerHTML = "";
