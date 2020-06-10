@@ -34,7 +34,7 @@ function doMath() {
             result = Math.sqrt(parseInt(val1));
             break;
         case 'p':
-            result = Math.pow(parseInt(val1)), parseInt(val2);
+            result = Math.pow(parseInt(val1), parseInt(val2));
             break;
     }
     document.getElementById('display1').innerHTML = "";
